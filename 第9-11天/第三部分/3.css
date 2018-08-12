@@ -1,0 +1,23 @@
+@charset "utf-8";
+body{
+    background-image: url(images/礼服1.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    z-index: -10;
+}
+.part2{
+    width: 400px;
+    height: 400px;
+    background-image: url(images/礼服.jpg);
+    background-size: contain;
+    background-repeat: no-repeat; 
+    z-index: 5;
+    position: absolute;
+    margin-top: 48px;
+    margin-left: 80px;
+}
+.part1{
+    z-index: 4;
+    position: absolute;
+    background-color: rgb(212, 27, 27);
+}

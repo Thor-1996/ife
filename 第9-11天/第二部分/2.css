@@ -1,0 +1,41 @@
+.firstdiv p:nth-child(2){
+    font-size: 27px;
+    text-align: center;
+    margin-top: 24px;
+    font-weight: 100;
+    margin-bottom: 42px
+}
+.firstdiv p:nth-child(1){
+    font-size: 10px;
+    text-align: center;
+    margin-top: 63px;
+    font-weight: 700;
+}
+.flex{
+    display: flex;   
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+}
+.column p:nth-of-type(1){
+    font-size: 18px;
+    margin-top: 0px;
+}
+.column p:nth-of-type(2){
+    color: rgb(97, 93, 93);
+}
+.Media{
+    display: flex;
+    align-items: flex-start;
+}
+.Media-figure {
+    margin-right: 1em;
+  }
+.column .Media:nth-of-type(1){
+    margin-bottom: 58px;
+}

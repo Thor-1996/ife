@@ -1,0 +1,14 @@
+@charset "utf-8";
+.higest{
+    display: flex;
+    flex-direction: column;
+}
+.top,.bottom{
+    display: flex;
+}
+.top div:nth-of-type(n){
+    border: 1px solid #000;
+}
+.bottom div:nth-of-type(n){
+    border: 1px solid #000;
+}
