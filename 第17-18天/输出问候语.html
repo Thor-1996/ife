@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>IFE ECMAScript</title>
+</head>
+
+<body>
+
+    <script>
+        var date=new Date();
+        var h=date.getHours();
+        if(h>=5&&h<=8){
+            document.write("早上好");
+        }
+        else if(h>=9&&h<=12){
+            document.write("上午好");
+        }
+        else if(h>=13&&h<=18){
+            document.write("下午好");
+        } 
+        else if(h>=19&&h<=23){
+            document.write("晚上好");
+        }
+        else {
+            document.write("晚安");
+        }
+    </script>
+
+</body>
+</html>

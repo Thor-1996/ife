@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+</head>
+
+<body>
+
+    <script>
+        var table = document.createElement("table");
+        for (let n = 1; n <= 9; n++) {
+            var tr = document.createElement("tr");
+            for (let m = 1; m < n + 1; m++) {
+                var td = document.createElement("td");
+                var txt = document.createTextNode(m + "*" + n + "=" + n * m);
+                td.appendChild(txt);
+                tr.appendChild(td);
+                table.appendChild(tr);
+            }
+        }
+        table.setAttribute("rules", "all");
+        table.setAttribute("frame", "box");
+        document.body.appendChild(table);
+
+    </script>
+
+</body>
+
+</html>
